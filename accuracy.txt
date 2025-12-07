@@ -1,0 +1,3 @@
+Training Accuracy: 80.31%
+Validation Accuracy: 89.24%
+Test Accuracy: 91.60%

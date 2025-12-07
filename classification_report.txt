@@ -1,0 +1,23 @@
+                       precision    recall  f1-score   support
+
+              allergy       1.00      0.90      0.95       156
+  bacterial_infection       0.81      0.83      0.82       126
+     fungal_infection       0.95      0.83      0.89       150
+              healthy       1.00      0.94      0.97       127
+                mange       0.88      0.96      0.92       191
+parasitic_infestation       0.91      0.94      0.93       162
+             ringworm       0.89      0.97      0.93       183
+
+             accuracy                           0.92      1095
+            macro avg       0.92      0.91      0.91      1095
+         weighted avg       0.92      0.92      0.92      1095
+
+
+CONFUSION MATRIX:
+[[140   0   0   0   4   0  12]
+ [  0 105   1   0   2  15   3]
+ [  0  10 125   0  15   0   0]
+ [  0   1   5 119   1   0   1]
+ [  0   1   0   0 184   0   6]
+ [  0   9   0   0   0 153   0]
+ [  0   3   0   0   3   0 177]]
